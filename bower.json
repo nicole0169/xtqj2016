@@ -1,0 +1,20 @@
+{
+  "name": "basic",
+  "authors": [
+    "miaomin <miaomin@bitmap3d.com.cn>"
+  ],
+  "description": "Bootstrap Basic Templates Project.",
+  "main": "",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
