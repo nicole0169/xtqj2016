@@ -17,28 +17,28 @@ server.listen(3999,function(){
     console.log('[info] Node server is listen on port 3999......');
 });
 
-server.get('/basic/index',function(req,res,next){
+server.get('/xtqj/index',function(req,res,next){
     var content = fs.readFileSync(__dirname + '/index.html','utf8');
     res.writeHead(200,{'Content-Type':'text/html'});
     res.write(content);
     res.end();
 });
 
-server.get('/basic/start',function(req,res,next){
+server.get('/xtqj/start',function(req,res,next){
     var content = fs.readFileSync(__dirname + '/start.html','utf8');
     res.writeHead(200,{'Content-Type':'text/html'});
     res.write(content);
     res.end();
 });
 
-server.get('/basic/schedule',function(req,res,next){
+server.get('/xtqj/schedule',function(req,res,next){
     var content = fs.readFileSync(__dirname + '/schedule.html','utf8');
     res.writeHead(200,{'Content-Type':'text/html'});
     res.write(content);
     res.end();
 });
 
-server.get('/basic/slides',function(req,res,next){
+server.get('/xtqj/slides',function(req,res,next){
     var content = fs.readFileSync(__dirname + '/slides.html','utf8');
     res.writeHead(200,{'Content-Type':'text/html'});
     res.write(content);
